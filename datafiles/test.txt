@@ -1,2 +1,2 @@
-ola adeus 21365
-segunda terça quarta
+AA;BB;CC;DD;
+EE;FF;GG;II;

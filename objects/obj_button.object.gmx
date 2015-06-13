@@ -28,37 +28,42 @@
             <string>obj_player.name = obj_textbox1.txt;
 obj_player.money = obj_textbox2.txt;
 room_goto(company);
-
 file = file_text_open_read("test.txt"); 
 for(i=0;i&lt;2;i++)
 {
 test[i]=file_text_read_string(file);
 file_text_readln(file);
-
 }
-show_message(string(test[0]));
-show_message(string(test[1]));
-
 file_text_close(file);
 
-a=0;
-b=0;
-d=0;
+a=0; //length of string
+b=0; //line of array
+d=1; //initial position in the string
+e=0; //current character being analysed
 text[0,0]="0";
-for(i=0;i&lt;string_length(test[0]);i++)
+for(i=1;i&lt;string_length(test[0]);i++)
 {
-if (string_char_at(test[0], i)==" ")
+if (string_char_at(test[0], e)==";" )
    {   
-    text[0,b] = string_copy(test[0], d, i);
-    
+    text[b,0] = string_copy(test[0], d, a-1 );
+    a=1;
     b++;
-    d=i;
-   }   
+    d=e+1;
+   }
+   else
+   {
+   a++;
+   }  
+   e++; 
 }
 
-show_message(string(text[0,0]));
 
-show_message(string(text[0,1]));
+show_message(string(string_length(test[0])));
+show_message(string(text[0,0]));
+show_message(string(text[1,0]));
+show_message(string(text[2,0]));
+show_message(string(text[3,0]));
+
 </string>
           </argument>
         </arguments>

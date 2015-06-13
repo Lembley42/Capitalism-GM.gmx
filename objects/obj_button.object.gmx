@@ -43,7 +43,7 @@ e=0; //current character being analysed
 text[0,0]="0";
 for(i=1;i&lt;string_length(test[0]);i++)
 {
-if (string_char_at(test[0], e)==";" )
+if (string_char_at(test[0], i)==";" )
    {   
     text[b,0] = string_copy(test[0], d, a-1 );
     a=1;

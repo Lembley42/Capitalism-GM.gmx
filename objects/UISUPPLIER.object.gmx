@@ -50,11 +50,15 @@
             <kind>1</kind>
             <string>draw_set_font(fnt_small); //Use fnt_small as font
 draw_sprite(sprite_index, image_index, x ,y); //Draw sprite, at own location
+
+draw_set_color(c_black);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_text(x,y,"Suppliers");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+draw_set_color(c_black);
 
 </string>
           </argument>

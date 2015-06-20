@@ -56,6 +56,7 @@
     <instance objName="obj_button" x="512" y="512" name="inst_4F7806F6" locked="0" code="" scaleX="1.23076927661896" scaleY="1.88235294818878" colour="4294967295" rotation="0"/>
     <instance objName="obj_textbox2" x="544" y="288" name="inst_94E699AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_textbox" x="1056" y="32" name="inst_9093E5D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_properties" x="1056" y="64" name="inst_AB48FDA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

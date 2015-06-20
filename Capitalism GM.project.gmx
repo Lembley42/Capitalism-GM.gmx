@@ -59,19 +59,33 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_button</sprite>
-    <sprite>sprites\spr_textbox</sprite>
-    <sprite>sprites\spr_UIBASEMAIN</sprite>
-    <sprite>sprites\spr_UIBASENAME</sprite>
-    <sprite>sprites\spr_UIBASEDATE</sprite>
-    <sprite>sprites\spr_UIBASEMONEY</sprite>
-    <sprite>sprites\spr_UIBASECOMPANY</sprite>
-    <sprite>sprites\spr_UIBASECITY</sprite>
-    <sprite>sprites\spr_UIBASESUPPLIER</sprite>
-    <sprite>sprites\spr_UICITYBKG</sprite>
-    <sprite>sprites\spr_UICOMPANYBKG</sprite>
-    <sprite>sprites\spr_UISUPPLIER</sprite>
-    <sprite>sprites\spr_CITYPROPLIST</sprite>
+    <sprites name="SETUP">
+      <sprite>sprites\spr_button</sprite>
+      <sprite>sprites\spr_textbox</sprite>
+    </sprites>
+    <sprites name="BASE UI">
+      <sprite>sprites\spr_UIBASEMAIN</sprite>
+      <sprite>sprites\spr_UIBASENAME</sprite>
+      <sprite>sprites\spr_UIBASEDATE</sprite>
+      <sprite>sprites\spr_UIBASEMONEY</sprite>
+      <sprite>sprites\spr_UIBASESUPPLIER</sprite>
+      <sprite>sprites\spr_UIBASECITY</sprite>
+      <sprite>sprites\spr_UIBASECOMPANY</sprite>
+    </sprites>
+    <sprites name="CITY">
+      <sprite>sprites\spr_UICITYBKG</sprite>
+      <sprite>sprites\spr_CITYPROPLIST</sprite>
+      <sprite>sprites\SPR_CITYBUYBTN</sprite>
+      <sprite>sprites\SPR_CITYRENTBTN</sprite>
+      <sprite>sprites\SPR_PROPDETBASE</sprite>
+      <sprite>sprites\SPR_PROPDETNMB</sprite>
+    </sprites>
+    <sprites name="SUPPLIER">
+      <sprite>sprites\spr_UISUPPLIER</sprite>
+    </sprites>
+    <sprites name="COMPANY">
+      <sprite>sprites\spr_UICOMPANYBKG</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\BACKGROUND</background>
@@ -107,6 +121,10 @@
     <objects name="CITY">
       <object>objects\UICITYBKG</object>
       <object>objects\UICITYPROPLIST</object>
+      <object>objects\UIBUYBTN</object>
+      <object>objects\UIRENTBTN</object>
+      <object>objects\UIPROPDETBASE</object>
+      <object>objects\UIPRODETNMB</object>
     </objects>
     <objects name="SUPPLIER">
       <object>objects\UISUPPLIERBKG</object>
